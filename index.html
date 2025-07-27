@@ -5,14 +5,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v7.0.0/css/fontawesome.css">
 </head>
 <body>
-  <div class="container" id="bookmarkApp">
-   <h1>Закладки</h1>
-   <input type="text" id="bookmarkInput" placeholder="URL">
-   <button id="addBookmarkBtn">Додати</button>
-   <ul id="bookmarkList"></ul>
-  </div>
+   <div class="main-div">
+       <div class="overflow-div">
+            <h1 class="h1-i">Закладки</h1>
+            <div class="line"></div>
+            <ul class="ul-i">
+              <li><input type="url" class="input-i"></li>
+              <li><button class="button-i"><i class="fa-solid fa-door-open"></i></button></li>
+            </ul>
+       </div>
+   </div>
 <script src="main.js" type="module"></script>
 </body>
 </html>
