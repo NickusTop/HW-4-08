@@ -57,12 +57,6 @@ li {
   cursor: pointer;
   border: 2px solid rgba(255, 255, 255, 0.758);
 }
-.line {
-  width: 60%;
-  height: 1px;
-  background-color: white;
-  margin-top: 20px;
-}
 .ul-main-i {
   margin-top: 20px;
   width: auto;
@@ -79,4 +73,10 @@ li {
   border-radius: 5px;
   border: 2px solid rgba(255, 255, 255, 0.758);
   cursor: pointer;
+}
+.line {
+  width: 60%;
+  height: 1px;
+  background-color: white;
+  margin-top: 20px;
 }
