@@ -11,10 +11,10 @@ function buttonClick() {
         alert('Будь ласка заповніть всі поля!');
         return;
     } else if (name.length < 3 || password.length < 3) {
-        alert('Ім\'я та пароль повинні містити не менше 3 символів!');
+        alert('Імя та пароль повинні містити не менше 3 символів!');
         return;
     } else if (name.length > 20 || password.length > 20) {
-        alert('Ім\'я та пароль повинні містити не більше 20 символів!');
+        alert('Імя та пароль повинні містити не більше 20 символів!');
         return;
     } else {
         localStorage.setItem('name', name);
